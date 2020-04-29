@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "54910758191",
+    "firebase_url": "https://loginallauths.firebaseio.com",
+    "project_id": "loginallauths",
+    "storage_bucket": "loginallauths.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54910758191:android:de97ee64c29ec8bc4845da",
+        "android_client_info": {
+          "package_name": "com.swapvats.login_minimalist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54910758191-up82o05un4eqdrm9nuu0j9scgrtrr0d8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swapvats.login_minimalist",
+            "certificate_hash": "bb84df21ed2fc244f58ceb47bbc36a3e9683a2e6"
+          }
+        },
+        {
+          "client_id": "54910758191-ku5e2fqt8bsj22l4vts01atdso5e7ah8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfcsQlYVnbDxTq5otYuN8RssjQ8FfB-2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54910758191-ku5e2fqt8bsj22l4vts01atdso5e7ah8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

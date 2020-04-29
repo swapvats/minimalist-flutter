@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_minimalist/pages/landingPageDecider.dart';
 import 'package:login_minimalist/pages/newuser.page.dart';
 
 class FirstTime extends StatefulWidget {
@@ -17,11 +18,24 @@ class _FirstTimeState extends State<FirstTime> {
         height: 20,
         child: Row(
           children: <Widget>[
-            Text(
-              'Your first time?',
-              style: TextStyle(
-                fontSize: 12,
-                color: Colors.white70,
+            GestureDetector(
+              onTap: (){
+                  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => LandingPage()),
+  );
+
+              },
+                          child: Container(
+                
+                child: Text(
+                  'Your first time?',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.white70,
+                    
+                  ),
+                ),
               ),
             ),
             FlatButton(
